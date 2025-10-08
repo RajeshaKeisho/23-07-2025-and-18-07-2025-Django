@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'myapp/css/styles.css' %}">
+    <script src="{% static 'myapp/js/script.js' %}"></script> <!-- Linking JS file -->
+</head>
+<body>
+<div class="container">
+        <img src="{% static 'myapp/images/nature.PNG' %}" alt="snnature">
+        <h2>Time: {{time}}</h2>
+        <h2>Message: {{greeting}}</h2>
+    </div>
+
+    
+
+</body>
+</html>
